@@ -49,5 +49,5 @@ def run_task(q: str = None):
         "task": q,
         "agent": "copilot-cli",
         "output": output,
-        "email": "24f1002590@itm.ac.in"
+        "email": "24f1002590@ds.study.iitm.ac.in"
     }
