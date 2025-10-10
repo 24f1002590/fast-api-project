@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 @app.get("/task")
-def run_task(q: str):
+def run_task(q: str = None):
     # This simulates sending 'q' to a coding agent like copilot-cli or aider
     # For grading, we'll simulate the Fibonacci computation directly.
     
