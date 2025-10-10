@@ -24,7 +24,7 @@ def run_task(q: str = None):
             "task": None,
             "agent": "copilot-cli",
             "output": "No task provided. Please include ?q= in the URL.",
-            "email": "24f1002590@itm.ac.in"
+            "email": "24f1002590@ds.study.iitm.ac.in"
         }
 
     # ✅ Now it's safe to use q.lower()
